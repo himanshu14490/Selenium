@@ -9,7 +9,7 @@ public class Waitutility extends Baselibrary
 {
 	public void alertIsPresent()
 	{
-		WebDriverWait wait = new WebDriver(driver,20);
+		WebDriverWait wait = new WebDriverWait(driver,20);
 		wait.until(ExpectedConditions.alertIsPresent());
 	}
 
