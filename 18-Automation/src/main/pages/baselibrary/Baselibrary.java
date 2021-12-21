@@ -21,7 +21,12 @@ public class Baselibrary {
 	@AfterTest
 	public void Teardown() {
 
+<<<<<<< HEAD
 		driver.quit();
 	}
+=======
+	//driver.quit();
+	//}
+>>>>>>> branch 'master' of https://github.com/himanshu14490/Selenium.git
 
 }
