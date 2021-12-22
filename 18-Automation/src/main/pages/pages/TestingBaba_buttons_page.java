@@ -3,6 +3,7 @@ package pages;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
+import applicationutility.applicationutility;
 import baselibrary.Baselibrary;
 
 public class TestingBaba_buttons_page extends Baselibrary {
@@ -32,7 +33,8 @@ public class TestingBaba_buttons_page extends Baselibrary {
 	}
 
 	public void clickonelementstab() {
-		clickonelementbtn.click();
+		applicationutility.clickme(clickonelementbtn);
+		//clickonelementbtn.click();
 	}
 	
 	public void clickonbutton() {
