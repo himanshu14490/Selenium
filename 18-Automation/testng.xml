@@ -7,9 +7,9 @@
     </classes>
   </test> <!-- Test -->
   
-  <test name ="Textbox" enabled="false">
+  <test name ="Buttons" enabled="false">
   <classes>
-  <class name ="test.Testingbaba_textbox_test"></class>
+  <class name ="test.Testingbaba_Buttons_test"></class>
   </classes>
   </test>
   <test name ="Textbox" enabled="true">
