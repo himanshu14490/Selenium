@@ -12,4 +12,18 @@
       </class> <!-- test.Testingbaba_launch_Test -->
     </classes>
   </test> <!-- smoke(failed) -->
+  <test thread-count="5" name="Textbox(failed)">
+    <classes>
+      <class name="test.Testingbaba_textbox_test">
+        <methods>
+          <include name="Teardown"/>
+          <include name="getttile"/>
+          <include name="clickonelements"/>
+          <include name="getverify"/>
+          <include name="filldetails"/>
+          <include name="launcTestingbaba"/>
+        </methods>
+      </class> <!-- test.Testingbaba_textbox_test -->
+    </classes>
+  </test> <!-- Textbox(failed) -->
 </suite> <!-- Failed suite [Testingbaba] -->

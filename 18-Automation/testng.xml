@@ -9,7 +9,7 @@
   
   <test name ="Buttons" enabled="false">
   <classes>
-  <class name ="test.Testingbaba_Buttons_test"></class>
+  <class name ="test.Testingbaba_Buttons_Test"></class>
   </classes>
   </test>
   <test name ="Textbox" enabled="true">

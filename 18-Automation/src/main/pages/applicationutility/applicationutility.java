@@ -1,6 +1,8 @@
 package applicationutility;
 
 import java.awt.Desktop.Action;
+import java.util.ArrayList;
+import java.util.Set;
 
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
@@ -29,6 +31,15 @@ public class applicationutility extends Baselibrary {
 		WebDriverWait wait = new WebDriverWait(driver,5);
 		wait.until(ExpectedConditions.visibilityOf(ele));
 		ele.click();
+	}
+	
+	public static void changewindow(int tabno) {
+		
+		Set<String>dd=driver.getWindowHandles();
+		ArrayList<String>tabs = new ArrayList<String>(dd);
+		driver.switchTo().window(tabs.get(tabno));
+		
+		
 	}
 	
 	

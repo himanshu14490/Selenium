@@ -1,5 +1,36 @@
 package pages;
 
-public class Testingbaba_links_page {
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
 
+import applicationutility.applicationutility;
+import baselibrary.Baselibrary;
+
+public class Testingbaba_links_page extends Baselibrary {
+	
+	
+	
+	public Testingbaba_links_page() {
+		PageFactory.initElements(driver, this);
+	}
+	
+	
+	@FindBy(xpath = "//*[@id=\"myModal2\"]/div/div/div[1]/button")
+	private WebElement closebtn;
+
+	@FindBy(xpath = "//*[@id=\"navbarSupportedContent\"]/ul/li[5]/a")
+	private WebElement practicbtnclick;
+	
+	@FindBy(xpath="//*[@id=\"v-pills-tab\"]/a[6]")
+	private WebElement clicklink;
+
+	
+	public void clickonclosebtn() {
+		closebtn.click();
+		practicbtnclick.click();
+}
+	public void clickonlink() {
+		applicationutility.clickme(clicklink);
+	}
 }
