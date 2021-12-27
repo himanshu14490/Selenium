@@ -12,36 +12,31 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import baselibrary.Baselibrary;
 
 public class applicationutility extends Baselibrary {
-	
-	public static void doubleclick(WebElement ele) 
-	{
+
+	public static void doubleclick(WebElement ele) {
 		Actions act = new Actions(driver);
 		act.doubleClick(ele).perform();
-		
+
 	}
-	
-	public static void rightclick(WebElement ele) 
-	{
+
+	public static void rightclick(WebElement ele) {
 		Actions act = new Actions(driver);
 		act.contextClick(ele).perform();
-		
+
 	}
-	
+
 	public static void clickme(WebElement ele) {
-		WebDriverWait wait = new WebDriverWait(driver,5);
+		WebDriverWait wait = new WebDriverWait(driver, 5);
 		wait.until(ExpectedConditions.visibilityOf(ele));
 		ele.click();
 	}
-	
+
 	public static void changewindow(int tabno) {
-		
-		Set<String>dd=driver.getWindowHandles();
-		ArrayList<String>tabs = new ArrayList<String>(dd);
+
+		Set<String> dd = driver.getWindowHandles();
+		ArrayList<String> tabs = new ArrayList<String>(dd);
 		driver.switchTo().window(tabs.get(tabno));
-		
-		
+
 	}
-	
-	
-	
+
 }

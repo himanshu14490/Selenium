@@ -7,7 +7,7 @@ import baselibrary.Baselibrary;
 
 public class PropertyUtility extends Baselibrary{
 	
-	static String path ="D:\\18-Automation\\Testdata.properties";
+	static String path ="C:\\Users\\Dell\\git\\Selenium\\18-Automation\\Testdata.properties";
 	public static String getreadproperty(String key)
 	
 	{

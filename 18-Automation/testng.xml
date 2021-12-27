@@ -12,9 +12,14 @@
   <class name ="test.Testingbaba_Buttons_Test"></class>
   </classes>
   </test>
-  <test name ="Textbox" enabled="true">
+  <test name ="Textbox" enabled="false">
   <classes>
   <class name ="test.Testingbaba_textbox_test"></class>
+  </classes>
+  </test>
+  <test name ="links" enabled="true">
+  <classes>
+  <class name ="test.Testingbaba_links_test"></class>
   </classes>
   </test>
 </suite> <!-- Suite -->
