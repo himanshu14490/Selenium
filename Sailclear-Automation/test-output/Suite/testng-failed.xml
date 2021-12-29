@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="weapon(failed)">
+    <classes>
+      <class name="tests.Sailclear_weapon_test">
+        <methods>
+          <include name="enterweaponinfo"/>
+          <include name="Teardown"/>
+          <include name="clickonsaveweapon"/>
+          <include name="launchsailclear"/>
+          <include name="getresultanalysis"/>
+        </methods>
+      </class> <!-- tests.Sailclear_weapon_test -->
+    </classes>
+  </test> <!-- weapon(failed) -->
+</suite> <!-- Failed suite [Suite] -->
