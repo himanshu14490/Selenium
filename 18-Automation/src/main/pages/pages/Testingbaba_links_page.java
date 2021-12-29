@@ -18,6 +18,9 @@ public class Testingbaba_links_page extends Baselibrary {
 
 	@FindBy(xpath = "//*[@id=\"navbarSupportedContent\"]/ul/li[5]/a")
 	private WebElement practicbtnclick;
+	
+	@FindBy(xpath = "//*[@id=\"elements-accordion\"]/div[1]/div[1]/h2/button")
+	private WebElement clickonelementbtn;
 
 	@FindBy(xpath = "//*[@id=\"v-pills-tab\"]/a[6]")
 	private WebElement clicklink;
@@ -25,8 +28,7 @@ public class Testingbaba_links_page extends Baselibrary {
 	@FindBy(xpath = "//*[text()='Demo Page']")
 	private WebElement clickondemolink;
 
-	@FindBy(xpath = "//*[@id=\"elements-accordion\"]/div[1]/div[1]/h2/button")
-	private WebElement clickonelementbtn;
+	
 
 	public void clickonclosebtn() {
 		closebtn.click();

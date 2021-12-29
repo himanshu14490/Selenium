@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Testingbaba]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="smoke(failed)">
+  <test thread-count="5" name="checkbox(failed)">
     <classes>
-      <class name="test.Testingbaba_launch_Test">
+      <class name="test.TestingBaba_checkbox_test">
         <methods>
-          <include name="Teardown"/>
-          <include name="getttile"/>
+          <include name="checkmobile"/>
           <include name="launcTestingbaba"/>
         </methods>
-      </class> <!-- test.Testingbaba_launch_Test -->
+      </class> <!-- test.TestingBaba_checkbox_test -->
     </classes>
-  </test> <!-- smoke(failed) -->
+  </test> <!-- checkbox(failed) -->
 </suite> <!-- Failed suite [Testingbaba] -->

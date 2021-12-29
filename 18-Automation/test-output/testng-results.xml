@@ -2,40 +2,40 @@
 <testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-12-27T18:06:39 IST" name="Testingbaba" finished-at="2021-12-27T18:06:55 IST" duration-ms="15869">
+  <suite started-at="2021-12-29T16:26:41 IST" name="Testingbaba" finished-at="2021-12-29T16:27:38 IST" duration-ms="56758">
     <groups>
     </groups>
-    <test started-at="2021-12-27T18:06:39 IST" name="smoke" finished-at="2021-12-27T18:06:47 IST" duration-ms="8190">
+    <test started-at="2021-12-29T16:26:41 IST" name="smoke" finished-at="2021-12-29T16:27:06 IST" duration-ms="24924">
       <class name="test.Testingbaba_launch_Test">
-        <test-method is-config="true" signature="launcTestingbaba()[pri:0, instance:test.Testingbaba_launch_Test@193f604a]" started-at="2021-12-27T18:06:39 IST" name="launcTestingbaba" finished-at="2021-12-27T18:06:47 IST" duration-ms="8117" status="PASS">
+        <test-method is-config="true" signature="launcTestingbaba()[pri:0, instance:test.Testingbaba_launch_Test@193f604a]" started-at="2021-12-29T16:26:41 IST" name="launcTestingbaba" finished-at="2021-12-29T16:27:06 IST" duration-ms="24840" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launcTestingbaba -->
-        <test-method signature="getttile()[pri:0, instance:test.Testingbaba_launch_Test@193f604a]" started-at="2021-12-27T18:06:47 IST" name="getttile" finished-at="2021-12-27T18:06:47 IST" duration-ms="17" status="PASS">
+        <test-method signature="getttile()[pri:0, instance:test.Testingbaba_launch_Test@193f604a]" started-at="2021-12-29T16:27:06 IST" name="getttile" finished-at="2021-12-29T16:27:06 IST" duration-ms="16" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getttile -->
       </class> <!-- test.Testingbaba_launch_Test -->
     </test> <!-- smoke -->
-    <test started-at="2021-12-27T18:06:47 IST" name="links" finished-at="2021-12-27T18:06:55 IST" duration-ms="7569">
-      <class name="test.Testingbaba_links_test">
-        <test-method is-config="true" signature="launcTestingbaba()[pri:0, instance:test.Testingbaba_links_test@28f2a10f]" started-at="2021-12-27T18:06:47 IST" name="launcTestingbaba" finished-at="2021-12-27T18:06:54 IST" duration-ms="6866" status="PASS">
+    <test started-at="2021-12-29T16:27:06 IST" name="Webtablet" finished-at="2021-12-29T16:27:38 IST" duration-ms="31739">
+      <class name="test.TestingBaba_webtablet_test">
+        <test-method is-config="true" signature="launcTestingbaba()[pri:0, instance:test.TestingBaba_webtablet_test@28f2a10f]" started-at="2021-12-29T16:27:06 IST" name="launcTestingbaba" finished-at="2021-12-29T16:27:34 IST" duration-ms="28536" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launcTestingbaba -->
-        <test-method signature="clickonelements()[pri:0, instance:test.Testingbaba_links_test@28f2a10f]" started-at="2021-12-27T18:06:54 IST" name="clickonelements" finished-at="2021-12-27T18:06:54 IST" duration-ms="97" status="PASS">
+        <test-method signature="clickonelements()[pri:0, instance:test.TestingBaba_webtablet_test@28f2a10f]" started-at="2021-12-29T16:27:34 IST" name="clickonelements" finished-at="2021-12-29T16:27:34 IST" duration-ms="102" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickonelements -->
-        <test-method signature="clickonlink()[pri:1, instance:test.Testingbaba_links_test@28f2a10f]" started-at="2021-12-27T18:06:54 IST" name="clickonlink" finished-at="2021-12-27T18:06:55 IST" duration-ms="320" status="PASS">
+        <test-method signature="clickonwebtablet()[pri:1, instance:test.TestingBaba_webtablet_test@28f2a10f]" started-at="2021-12-29T16:27:34 IST" name="clickonwebtablet" finished-at="2021-12-29T16:27:35 IST" duration-ms="186" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- clickonlink -->
-        <test-method signature="clickondemo()[pri:2, instance:test.Testingbaba_links_test@28f2a10f]" started-at="2021-12-27T18:06:55 IST" name="clickondemo" finished-at="2021-12-27T18:06:55 IST" duration-ms="273" status="PASS">
+        </test-method> <!-- clickonwebtablet -->
+        <test-method signature="entervalue()[pri:2, instance:test.TestingBaba_webtablet_test@28f2a10f]" started-at="2021-12-29T16:27:35 IST" name="entervalue" finished-at="2021-12-29T16:27:38 IST" duration-ms="2901" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- clickondemo -->
-      </class> <!-- test.Testingbaba_links_test -->
-    </test> <!-- links -->
+        </test-method> <!-- entervalue -->
+      </class> <!-- test.TestingBaba_webtablet_test -->
+    </test> <!-- Webtablet -->
   </suite> <!-- Testingbaba -->
 </testng-results>

@@ -17,9 +17,19 @@
   <class name ="test.Testingbaba_textbox_test"></class>
   </classes>
   </test>
-  <test name ="links" enabled="true">
+  <test name ="links" enabled="false">
   <classes>
   <class name ="test.Testingbaba_links_test"></class>
+  </classes>
+  </test>
+  <test name ="checkbox" enabled="false">
+  <classes>
+  <class name ="test.TestingBaba_checkbox_test"></class>
+  </classes>
+  </test>
+   <test name ="Webtablet" enabled="true">
+  <classes>
+  <class name ="test.TestingBaba_webtablet_test"></class>
   </classes>
   </test>
 </suite> <!-- Suite -->
