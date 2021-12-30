@@ -39,23 +39,23 @@ public class Sailclear_weapon_test extends Baselibrary {
 		ob.clickonsumbit_login();
 	}
 	
-	@Test(priority=4)
+	@Test(priority=4, enabled=true)
 	public void clickonweaponlist() {
 		ob.clickonweaponlist();
 	}
 	
-	@Test(priority=5)
+	@Test(priority=5,enabled=true)
 	public void clickonaddnewweapon() {
 		ob.addnewweapon();
 	}
-	@Test(priority=6)
+	@Test(priority=6,enabled=true)
 	public void enterweaponinfo() {
 		ob.enterweaponinfo();
 	}
 	
-	@Test(priority=7)
-	public void clickonsaveweapon() {
-		ob.clickonweaponsave();
+	//@Test(priority=7,enabled=false)
+	//public void clickonsaveweapon() {
+		//ob.clickonweaponsave();
 		
-	}
+	//}
 }

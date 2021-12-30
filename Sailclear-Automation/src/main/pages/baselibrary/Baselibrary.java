@@ -15,8 +15,9 @@ public class Baselibrary {
 
 	public void getlaunch(String url) {
 
-		System.setProperty("webdriver.chrome.driver",
-				"C:\\Users\\Dell\\eclipse-workspace\\Sailclear-Automation\\driver\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver","C:\\Users\\Dell\\git\\Selenium\\Sailclear-Automation\\driver\\chromedriver.exe");
+		
+		
 
 		driver = new ChromeDriver();
 		driver.get(url);

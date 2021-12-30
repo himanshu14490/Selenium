@@ -5,7 +5,7 @@ import java.util.Properties;
 
 public class Propertyutility {
 
-	static String path= "C:\\Users\\Dell\\eclipse-workspace\\Sailclear-Automation\\TestData\\config.properties";
+	static String path= "";
 	public static String getreadproperty(String key) {
 		
 		String value="";

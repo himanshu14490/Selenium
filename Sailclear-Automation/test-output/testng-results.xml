@@ -1,36 +1,199 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="7" passed="6" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-12-27T16:07:02 IST" name="Suite" finished-at="2021-12-27T16:07:43 IST" duration-ms="41419">
+  <suite started-at="2021-12-30T11:52:00 IST" name="Suite" finished-at="2021-12-30T11:54:13 IST" duration-ms="133187">
     <groups>
     </groups>
-    <test started-at="2021-12-27T16:07:02 IST" name="smoke" finished-at="2021-12-27T16:07:43 IST" duration-ms="41419">
-      <class name="tests.Sailclear_launch_test">
-        <test-method is-config="true" signature="launchsailclear()[pri:0, instance:tests.Sailclear_launch_test@3514a4c0]" started-at="2021-12-27T16:07:02 IST" name="launchsailclear" finished-at="2021-12-27T16:07:41 IST" duration-ms="39597" status="PASS">
+    <test started-at="2021-12-30T11:52:00 IST" name="weapon" finished-at="2021-12-30T11:54:13 IST" duration-ms="133187">
+      <class name="tests.Sailclear_weapon_test">
+        <test-method is-config="true" signature="launchsailclear()[pri:0, instance:tests.Sailclear_weapon_test@37654521]" started-at="2021-12-30T11:52:00 IST" name="launchsailclear" finished-at="2021-12-30T11:52:51 IST" duration-ms="50672" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchsailclear -->
-        <test-method signature="gettitleverify()[pri:0, instance:tests.Sailclear_launch_test@3514a4c0]" started-at="2021-12-27T16:07:41 IST" name="gettitleverify" finished-at="2021-12-27T16:07:41 IST" duration-ms="21" status="PASS">
+        <test-method signature="clickonlogin()[pri:0, instance:tests.Sailclear_weapon_test@37654521]" started-at="2021-12-30T11:52:51 IST" name="clickonlogin" finished-at="2021-12-30T11:52:51 IST" duration-ms="246" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- gettitleverify -->
-        <test-method is-config="true" signature="getresultanalysis(org.testng.ITestResult)[pri:0, instance:tests.Sailclear_launch_test@3514a4c0]" started-at="2021-12-27T16:07:41 IST" name="getresultanalysis" finished-at="2021-12-27T16:07:43 IST" duration-ms="1447" status="PASS">
+        </test-method> <!-- clickonlogin -->
+        <test-method is-config="true" signature="getresultanalysis(org.testng.ITestResult)[pri:0, instance:tests.Sailclear_weapon_test@37654521]" started-at="2021-12-30T11:52:51 IST" name="getresultanalysis" finished-at="2021-12-30T11:52:51 IST" duration-ms="302" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=gettitleverify status=SUCCESS method=Sailclear_launch_test.gettitleverify()[pri:0, instance:tests.Sailclear_launch_test@3514a4c0] output={null}]]]>
+                <![CDATA[[TestResult name=clickonlogin status=SUCCESS method=Sailclear_weapon_test.clickonlogin()[pri:0, instance:tests.Sailclear_weapon_test@37654521] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getresultanalysis -->
-        <test-method is-config="true" signature="Teardown()[pri:0, instance:tests.Sailclear_launch_test@3514a4c0]" started-at="2021-12-27T16:07:43 IST" name="Teardown" finished-at="2021-12-27T16:07:43 IST" duration-ms="289" status="PASS">
+        <test-method signature="enterusername()[pri:1, instance:tests.Sailclear_weapon_test@37654521]" started-at="2021-12-30T11:52:51 IST" name="enterusername" finished-at="2021-12-30T11:52:52 IST" duration-ms="199" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterusername -->
+        <test-method is-config="true" signature="getresultanalysis(org.testng.ITestResult)[pri:0, instance:tests.Sailclear_weapon_test@37654521]" started-at="2021-12-30T11:52:52 IST" name="getresultanalysis" finished-at="2021-12-30T11:52:52 IST" duration-ms="215" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=enterusername status=SUCCESS method=Sailclear_weapon_test.enterusername()[pri:1, instance:tests.Sailclear_weapon_test@37654521] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getresultanalysis -->
+        <test-method signature="enterpassword()[pri:2, instance:tests.Sailclear_weapon_test@37654521]" started-at="2021-12-30T11:52:52 IST" name="enterpassword" finished-at="2021-12-30T11:52:52 IST" duration-ms="151" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterpassword -->
+        <test-method is-config="true" signature="getresultanalysis(org.testng.ITestResult)[pri:0, instance:tests.Sailclear_weapon_test@37654521]" started-at="2021-12-30T11:52:52 IST" name="getresultanalysis" finished-at="2021-12-30T11:52:52 IST" duration-ms="199" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=enterpassword status=SUCCESS method=Sailclear_weapon_test.enterpassword()[pri:2, instance:tests.Sailclear_weapon_test@37654521] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getresultanalysis -->
+        <test-method signature="clickonsubmit()[pri:3, instance:tests.Sailclear_weapon_test@37654521]" started-at="2021-12-30T11:52:52 IST" name="clickonsubmit" finished-at="2021-12-30T11:52:52 IST" duration-ms="107" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickonsubmit -->
+        <test-method is-config="true" signature="getresultanalysis(org.testng.ITestResult)[pri:0, instance:tests.Sailclear_weapon_test@37654521]" started-at="2021-12-30T11:52:52 IST" name="getresultanalysis" finished-at="2021-12-30T11:52:52 IST" duration-ms="212" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickonsubmit status=SUCCESS method=Sailclear_weapon_test.clickonsubmit()[pri:3, instance:tests.Sailclear_weapon_test@37654521] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getresultanalysis -->
+        <test-method signature="clickonweaponlist()[pri:4, instance:tests.Sailclear_weapon_test@37654521]" started-at="2021-12-30T11:52:52 IST" name="clickonweaponlist" finished-at="2021-12-30T11:53:09 IST" duration-ms="16865" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickonweaponlist -->
+        <test-method is-config="true" signature="getresultanalysis(org.testng.ITestResult)[pri:0, instance:tests.Sailclear_weapon_test@37654521]" started-at="2021-12-30T11:53:09 IST" name="getresultanalysis" finished-at="2021-12-30T11:53:10 IST" duration-ms="886" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickonweaponlist status=SUCCESS method=Sailclear_weapon_test.clickonweaponlist()[pri:4, instance:tests.Sailclear_weapon_test@37654521] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getresultanalysis -->
+        <test-method signature="clickonaddnewweapon()[pri:5, instance:tests.Sailclear_weapon_test@37654521]" started-at="2021-12-30T11:53:10 IST" name="clickonaddnewweapon" finished-at="2021-12-30T11:53:10 IST" duration-ms="152" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickonaddnewweapon -->
+        <test-method is-config="true" signature="getresultanalysis(org.testng.ITestResult)[pri:0, instance:tests.Sailclear_weapon_test@37654521]" started-at="2021-12-30T11:53:10 IST" name="getresultanalysis" finished-at="2021-12-30T11:53:11 IST" duration-ms="444" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickonaddnewweapon status=SUCCESS method=Sailclear_weapon_test.clickonaddnewweapon()[pri:5, instance:tests.Sailclear_weapon_test@37654521] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getresultanalysis -->
+        <test-method signature="enterweaponinfo()[pri:6, instance:tests.Sailclear_weapon_test@37654521]" started-at="2021-12-30T11:53:11 IST" name="enterweaponinfo" finished-at="2021-12-30T11:54:12 IST" duration-ms="61445" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@class='mat-form-field-infix ng-tns-c92-17']"}
+  (Session info: chrome=96.0.4664.110)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+System info: host: 'DESKTOP-4MNU657', ip: '192.168.1.20', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 95.0.4638.17 (a9d0719444d4b..., userDataDir: C:\Users\Dell\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:60149}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 5094019e79a82355553e3fc594ba06fd
+*** Element info: {Using=xpath, value=//*[@class='mat-form-field-infix ng-tns-c92-17']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@class='mat-form-field-infix ng-tns-c92-17']"}
+  (Session info: chrome=96.0.4664.110)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+System info: host: 'DESKTOP-4MNU657', ip: '192.168.1.20', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 95.0.4638.17 (a9d0719444d4b..., userDataDir: C:\Users\Dell\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:60149}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 5094019e79a82355553e3fc594ba06fd
+*** Element info: {Using=xpath, value=//*[@class='mat-form-field-infix ng-tns-c92-17']}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy13.sendKeys(Unknown Source)
+at pages.Sailclear_weapon_page.enterweaponinfo(Sailclear_weapon_page.java:96)
+at tests.Sailclear_weapon_test.enterweaponinfo(Sailclear_weapon_test.java:53)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterweaponinfo -->
+        <test-method is-config="true" signature="getresultanalysis(org.testng.ITestResult)[pri:0, instance:tests.Sailclear_weapon_test@37654521]" started-at="2021-12-30T11:54:12 IST" name="getresultanalysis" finished-at="2021-12-30T11:54:12 IST" duration-ms="243" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=enterweaponinfo status=FAILURE method=Sailclear_weapon_test.enterweaponinfo()[pri:6, instance:tests.Sailclear_weapon_test@37654521] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getresultanalysis -->
+        <test-method is-config="true" signature="Teardown()[pri:0, instance:tests.Sailclear_weapon_test@37654521]" started-at="2021-12-30T11:54:12 IST" name="Teardown" finished-at="2021-12-30T11:54:13 IST" duration-ms="690" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Teardown -->
-      </class> <!-- tests.Sailclear_launch_test -->
-    </test> <!-- smoke -->
+      </class> <!-- tests.Sailclear_weapon_test -->
+    </test> <!-- weapon -->
   </suite> <!-- Suite -->
 </testng-results>

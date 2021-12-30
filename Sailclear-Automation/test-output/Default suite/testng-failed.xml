@@ -3,12 +3,18 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="tests.Sailclear_launch_test">
+      <class name="tests.Sailclear_weapon_test">
         <methods>
+          <include name="enterweaponinfo"/>
+          <include name="Teardown"/>
           <include name="clickonlogin"/>
+          <include name="enterpassword"/>
           <include name="launchsailclear"/>
+          <include name="clickonsubmit"/>
+          <include name="enterusername"/>
+          <include name="getresultanalysis"/>
         </methods>
-      </class> <!-- tests.Sailclear_launch_test -->
+      </class> <!-- tests.Sailclear_weapon_test -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

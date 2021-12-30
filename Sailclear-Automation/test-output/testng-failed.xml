@@ -7,7 +7,6 @@
         <methods>
           <include name="enterweaponinfo"/>
           <include name="Teardown"/>
-          <include name="clickonsaveweapon"/>
           <include name="launchsailclear"/>
           <include name="getresultanalysis"/>
         </methods>
