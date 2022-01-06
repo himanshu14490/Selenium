@@ -37,13 +37,14 @@ public class Sailclear_weapon_page extends Baselibrary {
 	@FindBy(xpath = "//*[@type=\"submit\"]")
 	private WebElement click_loginbtn;
 
-	@FindBy(xpath = "//*[@routerlink=\"weapon\"]")
+	@FindBy(xpath = "//*[@id=\"content\"]/dashboard/div/div[1]/div/div[3]/a/div/span[2]")
+
 	private WebElement clickonweaponlist;
 
 	@FindBy(xpath = "//span[contains(text(),'Add New Weapon')]")
 	private WebElement addnewweapon_click;
 
-	@FindBy(xpath = "//*[@id=\"mat-select-0\"]")
+	@FindBy(xpath = "//*[@id=\"mat-select-value-1\"]")
 	private WebElement weapontypedrpdwn;
 
 	@FindBy(xpath = "//*[@id='mat-input-6']")
@@ -83,6 +84,7 @@ public class Sailclear_weapon_page extends Baselibrary {
 
 	public void clickonweaponlist() {
 		clickonweaponlist.click();
+		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 	}
 
 	public void addnewweapon() {
@@ -90,49 +92,52 @@ public class Sailclear_weapon_page extends Baselibrary {
 	}
 
 	public void enterweaponinfo() {
-		
-		for(int i=0;i<=Excelutility.rowcount();i++) {
-			
-			weapontypedrpdwn.sendKeys(Excelutility.getdataexcel(i, 0));
-			entermanfacturer.sendKeys(Excelutility.getdataexcel(i, 1));
-			enterserialnum.sendKeys(Excelutility.getdataexcel(i, 2));
-			entercaliber.sendKeys(Excelutility.getdataexcel(i, 3));
+
+		// weapontypedrpdwn.click();
+		applicationUtitlity.Applicationutility.dropdown(weapontypedrpdwn, 3);
+
+		for (int i = 0; i <= Excelutility.rowcount(); i++) {
+
+			// weapontypedrpdwn.sendKeys(Excelutility.getdataexcel(i, 0));
+			entermanfacturer.sendKeys(Excelutility.getdataexcel(i, 0));
+			enterserialnum.sendKeys(Excelutility.getdataexcel(i, 1));
+			entercaliber.sendKeys(Excelutility.getdataexcel(i, 2));
 			clickonsave.click();
 		}
 
-		//expected = new ArrayList<String>();
+		// expected = new ArrayList<String>();
 
-		//expected.add(Propertyutility.getreadproperty("type"));
-		//expected.add(Propertyutility.getreadproperty("Manufacturer"));
-		//expected.add(Propertyutility.getreadproperty("SerialNumber"));
-		//expected.add(Propertyutility.getreadproperty("Caliber"));
+		// expected.add(Propertyutility.getreadproperty("type"));
+		// expected.add(Propertyutility.getreadproperty("Manufacturer"));
+		// expected.add(Propertyutility.getreadproperty("SerialNumber"));
+		// expected.add(Propertyutility.getreadproperty("Caliber"));
 
-		//Applicationutility.dropdown(weapontypedrpdwn, 1);
+		// Applicationutility.dropdown(weapontypedrpdwn, 1);
 
-		//entermanfacturer.sendKeys(Propertyutility.getreadproperty("Manufacturer"));
-		//enterserialnum.sendKeys(Propertyutility.getreadproperty("SerialNumber"));
-		//entercaliber.sendKeys(Propertyutility.getreadproperty("Caliber"));
+		// entermanfacturer.sendKeys(Propertyutility.getreadproperty("Manufacturer"));
+		// enterserialnum.sendKeys(Propertyutility.getreadproperty("SerialNumber"));
+		// entercaliber.sendKeys(Propertyutility.getreadproperty("Caliber"));
 
-	//}
+		// }
 
-	//public void clickonweaponsave() {
-		//clickonsave.click();
-	//}
+		// public void clickonweaponsave() {
+		// clickonsave.click();
+		// }
 
-	//public void getverifyweapondata() {
+		// public void getverifyweapondata() {
 
-		//try {
+		// try {
 
-			//ArrayList<String> li = new ArrayList<String>();
-			//li.add(weaponlist.get(7).getText());
-			//li.add(weaponlist.get(8).getText());
-			//li.add(weaponlist.get(9).getText());
-			//li.add(weaponlist.get(10).getText());
-			//li.add(weaponlist.get(11).getText());
+		// ArrayList<String> li = new ArrayList<String>();
+		// li.add(weaponlist.get(7).getText());
+		// li.add(weaponlist.get(8).getText());
+		// li.add(weaponlist.get(9).getText());
+		// li.add(weaponlist.get(10).getText());
+		// li.add(weaponlist.get(11).getText());
 
-		//} catch (Exception e) {
-			// 
-		//}
+		// } catch (Exception e) {
+		//
+		// }
 	}
 
 }

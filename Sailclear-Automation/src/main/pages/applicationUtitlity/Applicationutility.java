@@ -19,17 +19,18 @@ public class Applicationutility extends Baselibrary {
 		Actions act = new Actions(driver);
 		act.contextClick(ele).perform();
 	}
-	
-	public static void main(WebElement ele,String value)
-	{
-	Select dropdown=new Select(ele);
-	dropdown.selectByVisibleText(value);
-	}
-	
-	public static void dropdown(WebElement ele, int value) {
-		
+
+	public static void main(WebElement ele, String value) {
 		Select dropdown = new Select(ele);
-		dropdown.deselectByIndex(value);
+		dropdown.selectByVisibleText(value);
 	}
+
+	public static void dropdown(WebElement ele, int value) {
+
+		Select dropdown = new Select(ele);
+		dropdown.selectByIndex(value);
+	}
+	
+	
 
 }

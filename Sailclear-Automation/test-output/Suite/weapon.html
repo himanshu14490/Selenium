@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>6/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Thu Dec 30 11:52:00 IST 2021</td>
+<td>Started on:</td><td>Thu Dec 30 19:27:15 IST 2021</td>
 </tr>
-<tr><td>Total time:</td><td>133 seconds (133187 ms)</td>
+<tr><td>Total time:</td><td>100 seconds (100477 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,60 +76,23 @@ function toggleAllBoxes() {
 </tr>
 <tr>
 <td title='tests.Sailclear_weapon_test.enterweaponinfo()'><b>enterweaponinfo</b><br>Test class: tests.Sailclear_weapon_test</td>
-<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@class=&apos;mat-form-field-infix ng-tns-c92-17&apos;]&quot;}
-  (Session info: chrome=96.0.4664.110)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+<td><div><pre>org.openqa.selenium.support.ui.UnexpectedTagNameException: Element should have been &quot;select&quot; but was &quot;div&quot;
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:48&apos;
 System info: host: &apos;DESKTOP-4MNU657&apos;, ip: &apos;192.168.1.20&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.2&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 95.0.4638.17 (a9d0719444d4b..., userDataDir: C:\Users\Dell\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:60149}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 5094019e79a82355553e3fc594ba06fd
-*** Element info: {Using=xpath, value=//*[@class=&apos;mat-form-field-infix ng-tns-c92-17&apos;]}
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy13.sendKeys(Unknown Source)
-	at pages.Sailclear_weapon_page.enterweaponinfo(Sailclear_weapon_page.java:96)
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.&lt;init&gt;(Select.java:48)
+	at applicationUtitlity.Applicationutility.dropdown(Applicationutility.java:30)
+	at pages.Sailclear_weapon_page.enterweaponinfo(Sailclear_weapon_page.java:97)
 	at tests.Sailclear_weapon_test.enterweaponinfo(Sailclear_weapon_test.java:53)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace931548023", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace931548023'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@class=&apos;mat-form-field-infix ng-tns-c92-17&apos;]&quot;}
-  (Session info: chrome=96.0.4664.110)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace429804587", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace429804587'><pre>org.openqa.selenium.support.ui.UnexpectedTagNameException: Element should have been &quot;select&quot; but was &quot;div&quot;
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:48&apos;
 System info: host: &apos;DESKTOP-4MNU657&apos;, ip: &apos;192.168.1.20&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.2&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 95.0.4638.17 (a9d0719444d4b..., userDataDir: C:\Users\Dell\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:60149}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 5094019e79a82355553e3fc594ba06fd
-*** Element info: {Using=xpath, value=//*[@class=&apos;mat-form-field-infix ng-tns-c92-17&apos;]}
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy13.sendKeys(Unknown Source)
-	at pages.Sailclear_weapon_page.enterweaponinfo(Sailclear_weapon_page.java:96)
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.&lt;init&gt;(Select.java:48)
+	at applicationUtitlity.Applicationutility.dropdown(Applicationutility.java:30)
+	at pages.Sailclear_weapon_page.enterweaponinfo(Sailclear_weapon_page.java:97)
 	at tests.Sailclear_weapon_test.enterweaponinfo(Sailclear_weapon_test.java:53)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
@@ -160,7 +123,7 @@ Session ID: 5094019e79a82355553e3fc594ba06fd
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>61</td>
+<td>0</td>
 <td>tests.Sailclear_weapon_test@37654521</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
@@ -173,12 +136,12 @@ Session ID: 5094019e79a82355553e3fc594ba06fd
 <tr>
 <td title='tests.Sailclear_weapon_test.clickonaddnewweapon()'><b>clickonaddnewweapon</b><br>Test class: tests.Sailclear_weapon_test</td>
 <td></td>
-<td>0</td>
+<td>1</td>
 <td>tests.Sailclear_weapon_test@37654521</td></tr>
 <tr>
-<td title='tests.Sailclear_weapon_test.clickonweaponlist()'><b>clickonweaponlist</b><br>Test class: tests.Sailclear_weapon_test</td>
+<td title='tests.Sailclear_weapon_test.clickonlogin()'><b>clickonlogin</b><br>Test class: tests.Sailclear_weapon_test</td>
 <td></td>
-<td>16</td>
+<td>0</td>
 <td>tests.Sailclear_weapon_test@37654521</td></tr>
 <tr>
 <td title='tests.Sailclear_weapon_test.enterpassword()'><b>enterpassword</b><br>Test class: tests.Sailclear_weapon_test</td>
@@ -186,9 +149,9 @@ Session ID: 5094019e79a82355553e3fc594ba06fd
 <td>0</td>
 <td>tests.Sailclear_weapon_test@37654521</td></tr>
 <tr>
-<td title='tests.Sailclear_weapon_test.enterusername()'><b>enterusername</b><br>Test class: tests.Sailclear_weapon_test</td>
+<td title='tests.Sailclear_weapon_test.clickonweaponlist()'><b>clickonweaponlist</b><br>Test class: tests.Sailclear_weapon_test</td>
 <td></td>
-<td>0</td>
+<td>14</td>
 <td>tests.Sailclear_weapon_test@37654521</td></tr>
 <tr>
 <td title='tests.Sailclear_weapon_test.clickonsubmit()'><b>clickonsubmit</b><br>Test class: tests.Sailclear_weapon_test</td>
@@ -196,7 +159,7 @@ Session ID: 5094019e79a82355553e3fc594ba06fd
 <td>0</td>
 <td>tests.Sailclear_weapon_test@37654521</td></tr>
 <tr>
-<td title='tests.Sailclear_weapon_test.clickonlogin()'><b>clickonlogin</b><br>Test class: tests.Sailclear_weapon_test</td>
+<td title='tests.Sailclear_weapon_test.enterusername()'><b>enterusername</b><br>Test class: tests.Sailclear_weapon_test</td>
 <td></td>
 <td>0</td>
 <td>tests.Sailclear_weapon_test@37654521</td></tr>
